@@ -1,11 +1,7 @@
 ﻿Console.WriteLine("Prasau iveskite slaptazodi: ");
 string enterPassword = Console.ReadLine();
 string password = "Laura";
-if (enterPassword == password)
-{
-    Console.WriteLine("Teisingai prisijungete");
-}
-else if (enterPassword == "Mellon")
+if (enterPassword == password || enterPassword == "Mellon")
 {
     Console.WriteLine("Teisingai prisijungete");
 }
